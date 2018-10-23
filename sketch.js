@@ -32,7 +32,7 @@ function draw() {
 
   image(myImage, 0, 0, myImage.width / 1.5, myImage.height / 1.5);
   image(occhio_dx, 860 + 1.3*p, 220 - p, 24, 24);
-  image(occhio_sx, 975 - 1.3*p, 199 - p, 24, 24);
+  image(occhio_sx, 975 - p, 199 - 0.5 * p, 24, 24);
 
   push();
   imageMode(CENTER);
