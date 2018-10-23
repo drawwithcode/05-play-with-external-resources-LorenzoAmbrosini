@@ -8,7 +8,7 @@ var song;
 function preload() {
   myImage = loadImage('./assets/Armstrong.png')
   occhio_sx = loadImage('./assets/Armstrong_Eye.png');
-  occhio_dx = loadImage('./assets/Armstrong_Eye.png');;
+  occhio_dx = loadImage('./assets/Armstrong_Eye2.png');;
   trumpet = loadImage('./assets/Armstrong_Trumpet.png')
 
   song = loadSound('./assets/Sound.mp3');
