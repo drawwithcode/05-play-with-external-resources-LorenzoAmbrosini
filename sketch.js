@@ -2,7 +2,6 @@ var myImage;
 var occhio_sx;
 var occhio_dx;
 var trumpet;
-
 var song;
 
 
@@ -17,14 +16,10 @@ function preload() {
 }
 
 function setup() {
-  // put setup code here
   createCanvas(windowWidth, windowHeight);
-
   song.setVolume(0.5);
   fft = new p5.FFT();
   song.play();
-
-
 }
 
 function draw() {
